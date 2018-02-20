@@ -1,0 +1,58 @@
+
+
+#intro{
+	text-align: center;
+}
+
+#name{
+	font-family: 'Molle', cursive;
+	font-size: 75px;
+}
+
+.guide{
+	display: inline;
+}
+
+section{
+	text-align: center;
+	border-style: double;
+	border-radius: 15px;
+	margin: 40px;
+}
+
+.sectionTitle{
+	font-family: 'La Belle Aurore', cursive;
+	font-size: 30px;
+}
+
+.pizza{
+	font-family: 'Qwigley', cursive;
+}
+
+/*#name{
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+	font-size: 75px;
+}
+
+
+font-family: 'Amaranth', sans-serif;
+
+
+#pizzaMan{
+	align: left;
+}
+
+.guide{
+	display: inline;
+
+}
+
+#topMenu{
+	background-color: salmon;
+	padding: 15px;
+}
+
+*/
+
+
