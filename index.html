@@ -9,18 +9,24 @@
 	<link href="https://fonts.googleapis.com/css?family=La+Belle+Aurore" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Qwigley" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Atma" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
 </head>
+
 <body>
 	<header id="intro">
 		<div class="content">
+			<img src="/assets/pizzaMan.png" alt="logo" height="150" width="150">
 			<h1 id="name">Pizzaria La DevLeague</h1>
 			<h2 id="tagLine">Functional Pizza For All!</h2>
-			<img src="/assets/pizzaMan.jpeg" alt="logo" height="150" width="150">
+
 			<nav id="topMenu">
-				<li class="guide"><a href=#today>Today's Special</a></li>
-        		<li class="guide"><a href=#menu>Menu</a></li>
-        		<li class="guide"><a href=#subscribe>Subscribe</a></li>
-        		<li class="guide"><a href=#visit>Visit</a></li>
+				<ul>
+					<li class="guide"><a href=#today>Today's Special</a></li>
+	        		<li class="guide"><a href=#menu>Menu</a></li>
+	        		<li class="guide"><a href=#subscribe>Subscribe</a></li>
+	        		<li class="guide"><a href=#visit>Visit</a></li>
+				</ul>
 			</nav>
 		</div>
 	</header>
@@ -36,25 +42,37 @@
 	    <div class="content">
 	     	<h3 class="sectionTitle">Menu</h3>
 	     	<div class="pizza">
-	    		<p class="pizzaName">Object of My Desire</p>
-	        	<p class="description">A programmer's delight, this classic has string cheese, an array of BBQ meats and 1 special sauce.</p>
-	       		<p class="price">19.99</p>
-	        
-		        <p class="pizzaName">Four Loop</p>
-		        <p class="description"></p>
-		        <p class="price">44.44</p>
-		        
-		        <p class="pizzaName">Conditional Love</p>
-		        <p class="description"></p>
-		        <p class="price">22.14</p>
-		        
-		        <p class="pizzaName">The DOM</p>
-		        <p class="description">This dynamic blend of Duck, Olives and Mango will change your original thought of what a pizza should be. The only thing constant is change for this bad boy!</p>
-		        <p class="price">16.99</p>
-		        
-		        <p class="pizzaName">Conjunction Function</p>
-		        <p class="description">Create your own pie by passing in handpicked fresh ingredients. Invoke your appetite and creativity! Mamma Mia return back to glory!</p>
-		        <p class="price">17.02</p>
+
+	     		<div id="pizza1">
+		    		<p class="pizzaName">Object of My Desire</p>
+		        	<p class="description">A programmer's delight, this classic has string cheese, an array of BBQ meats and 1 special sauce.</p>
+		       		<p class="price">19.99</p>
+				</div>
+
+				<div id="pizza2">
+			        <p class="pizzaName">Four Loop</p>
+			        <p class="description">Spin your wheel with this quattro cheese mix doused in garlic and truffle oil. Loop there it is!</p>
+			        <p class="price">44.44</p>
+		    	</div>
+
+				<div id="pizza3">
+			        <p class="pizzaName">Conditional Love</p>
+			        <p class="description">This island favorite doesn't give you a chance to say no. Korean bulgogi meat, kim chee, mozzarella cheese and onions always returns true! Boo~Ya!</p>
+			        <p class="price">22.14</p>
+				</div>
+
+				<div id="pizza4">
+			        <p class="pizzaName">The DOM</p>
+			        <p class="description">This dynamic blend of Duck, Olives and Mango will change your original thought of what a pizza should be. The only thing constant is change for this bad boy!</p>
+			        <p class="price">16.99</p>
+				</div>
+
+		        <div id="pizza5">
+			        <p class="pizzaName">Conjunction Function</p>
+			        <p class="description">Create your own pie by passing in handpicked fresh ingredients. Invoke your appetite and creativity! Mamma Mia return back to glory!</p>
+			        <p class="price">17.02</p>
+		    	</div>
+
 	      </div>
 	    </div>
   	</section>
@@ -63,9 +81,9 @@
 	    <div class="content">
 	      	<h3 class="sectionTitle">Subscribe</h3>
 	      	<p id="deal">Sign up for our special deals!</p>
-	      	<input type="First Name">
-	      	<input type="Last Name">
-	      	<input type="email">
+	      	<input type="First Name" name="firstName" value="First Name">
+	      	<input type="Last Name" name="lastName" value="Last Name">
+	      	<input type="email" name="email" value="Email">
 	    </div>
 	</section>  	
 
@@ -86,7 +104,7 @@
 
 	<footer>
 		<div class="content">
-			<p id="credit">Site Design and Development By Your Name</p>
+			<p id="credit">Site Design and Development By May Chen</p>
 			<p id="copyright">&copy 2017 Gin Drinkers Association (GDA)</p>
 		</div>
 	</footer>

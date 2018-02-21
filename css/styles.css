@@ -1,58 +1,249 @@
 
-
-#intro{
-	text-align: center;
+body{
+	margin: 0px;
+/*	background-image: url('https://www.bowenknife.com/wp-content/uploads/2016/04/Dark-Brushed-Steel-Background-e1460474146338.jpg');*/
+	background-image: url('http://www.dakao.fr/wp-content/uploads/2017/10/269-2048x2048.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-#name{
-	font-family: 'Molle', cursive;
+.content {
+	margin: auto;
+}
+
+header::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+img {
+	float: left;
+	padding-left: 230px;
+	padding-top: 20px;
+}
+
+h1#name {
+	color: white;
+	margin: 0;
+	font-family: 'Atma', cursive;
 	font-size: 75px;
+	padding-left: 400px;
+	padding-top: 25px;
 }
 
-.guide{
+h2#tagLine {
+	color: white;
+	font-family: 'Homemade Apple', cursive;
+	font-size: 30px;
 	display: inline;
+	margin: 0;
+	padding: 0;
+	padding-left: 275px;
 }
 
-section{
+nav {
+	float: right;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 45px;
+	position: relative;
+}
+
+nav a {
+	color: white;
+	font-family: 'Atma', cursive;
+	font-weight: bold;
+	font-size: 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+nav a:hover{
+	color: lightcoral;
+}
+
+nav a:after {
+	content: '';
+	display: block;
+	height: 5px;
+	width: 100%;
+	background-color: lightcoral;
+	position: absolute;
+	bottom: -10px;
+	width: 0%;
+	transition: all ease-in-out 250ms;
+}
+
+nav a:hover::after {
+	width: 100%;
+}
+
+section {
+	color: white;
 	text-align: center;
-	border-style: double;
-	border-radius: 15px;
-	margin: 40px;
 }
 
-.sectionTitle{
+#today {
+	color: black;
+	border-style: dotted;
+	border-radius: 25px;
+	border-color: white;
+	border-width: 10px;
+	background-color: #F6B4B4;
+	opacity: 0.8;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 40px;
+	padding: 0;
+
+}
+
+.sectionTitle {
 	font-family: 'La Belle Aurore', cursive;
+	font-size: 40px;
+	font-weight: bold;
+	margin: 20px;
+}
+
+#special {
+	font-family: 'Atma', cursive;
+	font-size: 25px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 10px;
+	padding: 0;
+}
+
+.pizzaName{
+	font-family: 'Qwigley', cursive;
+	font-size: 40px;
+	color: firebrick;
+	font-weight: bold;
+	margin: 0;
+}
+
+.description, .price {
+	font-family: 'Caveat', cursive;
+	font-size: 25px;
+	color: black;
+}
+
+#menu {
+	border-style: solid;
+	border-radius: 25px;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 40px;
+	padding: 0;
+}
+
+#pizza1 {
+	border-style: solid;
+	border-radius: 25px;
+	border-color: mistyrose;
+	background-color: #F4F4F4;
+	opacity: 0.8;
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+#pizza2 {
+	border-style: solid;
+	border-radius: 25px;
+	border-color: mistyrose;
+	background-color: #F4F4F4;
+	opacity: 0.8;
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+#pizza3 {
+	border-style: solid;
+	border-radius: 25px;
+	border-color: mistyrose;
+	background-color: #F4F4F4;
+	opacity: 0.8;
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+#pizza4 {
+	border-style: solid;
+	border-radius: 25px;
+	border-color: mistyrose;
+	background-color: #F4F4F4;
+	opacity: 0.8;
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+#pizza5 {
+	border-style: solid;
+	border-radius: 25px;
+	border-color: mistyrose;
+	background-color: #F4F4F4;
+	opacity: 0.8;
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 20px;
+}
+
+#subscribe {
+	padding: 0;
+	margin: 0;
+	margin-top: 50px;
+	text-align: center;
+	font-family: 'Caveat', cursive;
 	font-size: 30px;
 }
 
-.pizza{
-	font-family: 'Qwigley', cursive;
+#deal{
+	margin: 0;
 }
 
-/*#name{
-	font-family: 'Pacifico', cursive;
+#addy {
+	padding: 0;
+	margin: 0;
 	text-align: center;
-	font-size: 75px;
+	list-style: none;
+	font-family: 'Caveat', cursive;
+	font-size: 30px;
 }
 
-
-font-family: 'Amaranth', sans-serif;
-
-
-#pizzaMan{
-	align: left;
+li#map a {
+	text-decoration: none;
+	color: lightcoral;
 }
 
-.guide{
-	display: inline;
-
+li#map a:hover{
+	color: springgreen;
+	content: url(/assets/MIC.png);
+	display: 20px block;
+	position: center;
 }
 
-#topMenu{
-	background-color: salmon;
-	padding: 15px;
+footer {
+	text-align: center;
+	color: white;
+	padding: 0;
+	margin: 0;
+	margin-top: 50px;
+	margin-bottom: 20px;
 }
-
-*/
-
-
