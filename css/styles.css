@@ -1,0 +1,94 @@
+body {
+	margin: 0;
+}
+
+#name, #tagLine {
+	text-align: center;
+}
+
+#topMenu {
+	text-align: center;
+}
+
+.guide {
+	list-style-type: none;
+	text-align: center;
+	background-color: black;
+	padding: 0;
+	display: inline-block;
+	font-size: 20px;
+	overflow: hidden;
+}
+
+#topMenu li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 15px 30px;
+
+}
+
+#topMenu li a:hover {
+	background-color: firebrick;
+}
+
+#today{
+	display: inline-block;
+	margin-left: 50px;
+}
+
+#today .content {
+	width: 75%;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	position: relative;
+}
+
+#today img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+#today .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: firebrick;
+}
+
+#today:hover .overlay {
+  opacity: 1;
+}
+
+#special {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+#today .sectionTitle {
+	font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
