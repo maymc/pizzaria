@@ -1,9 +1,12 @@
 body {
 	margin: 0;
+	cursor: url('https://www.cursor.cc/cursor3d/47013.png'), auto;
 }
 
 #name, #tagLine {
+	font-size: 60px;
 	text-align: center;
+	font-family: 'Love Ya Like A Sister', cursive;
 }
 
 #topMenu {
@@ -38,7 +41,7 @@ body {
 }
 
 #today .content {
-	width: 75%;
+	width: 100%;
 	background-color: white;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	text-align: center;
@@ -73,7 +76,7 @@ body {
   font-size: 25px;
   font-weight: bold;
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -81,13 +84,146 @@ body {
 
 #today .sectionTitle {
 	font-size: 30px;
+	padding-top: 40px;
 }
 
+#menu .sectionTitle {
+	font-size: 50px;
+	text-align: center;
+}
 
+.pizza{
+	display: inline-block;
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
 
+#menu .pizza{
+	width: 30%;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	position: relative;
+}
 
+#menu img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
 
+#overlay1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: firebrick;
+}
 
+.pizza:hover #overlay1 {
+  opacity: 1;
+}
+
+#overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: firebrick;
+}
+
+.pizza:hover #overlay2 {
+  opacity: 1;
+}
+
+#overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: firebrick;
+}
+
+.pizza:hover #overlay3 {
+  opacity: 1;
+}
+
+#overlay4 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: firebrick;
+}
+
+.pizza:hover #overlay4 {
+  opacity: 1;
+}
+
+#overlay5 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: firebrick;
+}
+
+.pizza:hover #overlay5 {
+  opacity: 1;
+}
+
+.description {
+	margin: 0;
+	padding: 20px;
+  color: white;
+  font-size: 25px;
+  position: relative;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.price {
+	margin: 0;
+  color: white;
+  font-size: 25px;
+  position: relative;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+#menu .pizzaName {
+	font-size: 20px;
+	font-weight: bold;
+}
 
 
 
